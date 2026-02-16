@@ -1,0 +1,3 @@
+/Users/johan/cpp-course/homework-2/build/CMakeFiles/homework_2.dir
+/Users/johan/cpp-course/homework-2/build/CMakeFiles/edit_cache.dir
+/Users/johan/cpp-course/homework-2/build/CMakeFiles/rebuild_cache.dir
