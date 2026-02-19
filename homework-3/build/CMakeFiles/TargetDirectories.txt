@@ -1,3 +1,0 @@
-/Users/johan/cpp-course/homework-3/build/CMakeFiles/homework_3.dir
-/Users/johan/cpp-course/homework-3/build/CMakeFiles/edit_cache.dir
-/Users/johan/cpp-course/homework-3/build/CMakeFiles/rebuild_cache.dir
