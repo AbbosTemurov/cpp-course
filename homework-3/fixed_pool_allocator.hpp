@@ -1,4 +1,4 @@
-#pragma once
+    #pragma once
 
 #include <cstddef>
 #include <memory>
@@ -40,8 +40,10 @@ public:
     }
 
     void deallocate(T*, size_type) noexcept {
-        // Per assignment: per-element deallocation is not required.
-    }
+    // This allocator is monotonic.
+    // Individual deallocation is intentionally not supported.
+    // All memory is released when allocator state is destroyed.
+}
 
     template <typename U>
     bool operator==(const FixedPoolAllocator<U, Capacity>&) const noexcept {
